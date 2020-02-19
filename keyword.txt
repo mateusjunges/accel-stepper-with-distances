@@ -1,0 +1,11 @@
+ 
+MyStepper			KEYWORD1
+setMicroStep			KEYWORD2
+setStepsPerRevolution		KEYWORD2
+setDistancePerRevolution	KEYWORD2
+getCurrentPositionDistance	KEYWORD2
+moveToDistance			KEYWORD2
+runToNewDistance		KEYWORD2
+setAnglePerRevolution		KEYWORD2
+moveToAngle			KEYWORD2
+runToNewAngle			KEYWORD2
