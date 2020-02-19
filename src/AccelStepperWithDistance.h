@@ -6,9 +6,9 @@
 class AccelStepperWithDistance : public AccelStepper {
     private:
 		int microSteps = 1;
-		int stepsPerRevolution = 200;
-		float distancePerRevolution = 1;
-		float anglePerRevolution = 360;
+		int stepsPerRotation = 200;
+		float distancePerRotation = 1;
+		float anglePerRotation = 360;
 
     public:
 		AccelStepperWithDistance(
@@ -20,13 +20,21 @@ class AccelStepperWithDistance : public AccelStepper {
 			bool enable = true);
 
 		void setMicroStep(int value);
-		void setStepsPerRevolution(int value);
-		void setDistancePerRevolution(float value);
+
+		void setStepsPerRotation(int value);
+
+		void setDistancePerRotation(float value);
+
 		float getCurrentPositionDistance();
+
 		void moveToDistance(float value);
+
 		void runToNewDistance(float value);
-		void setAnglePerRevolution(float value);
+
+		void setAnglePerRotation(float value);
+
 		void moveToAngle(float value);
+
 		void runToNewAngle(float value);
 };
 

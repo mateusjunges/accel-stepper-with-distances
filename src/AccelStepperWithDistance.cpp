@@ -13,20 +13,20 @@ void AccelStepperWithDistance::setMicroStep(int value) {
 	microSteps = value;
 }
 
-void AccelStepperWithDistance::setStepsPerRevolution(int value) {
-	stepsPerRevolution = value;
+void AccelStepperWithDistance::setStepsPerRotation(int value) {
+	stepsPerRotation = value;
 }
 
-void AccelStepperWithDistance::setDistancePerRevolution(float value) {
-	distancePerRevolution = value;
+void AccelStepperWithDistance::setDistancePerRotation(float value) {
+	distancePerRotation = value;
 }
 
 float AccelStepperWithDistance::getCurrentPositionDistance() {
-	return currentPosition() / (microSteps * stepsPerRevolution / distancePerRevolution);
+	return currentPosition() / (microSteps * stepsPerRotation / distancePerRotation);
 }
 
 void AccelStepperWithDistance::moveToDistance(float value) {
-	moveTo(value * microSteps * stepsPerRevolution / distancePerRevolution);
+	moveTo(value * microSteps * stepsPerRotation / distancePerRotation);
 }
 
 void AccelStepperWithDistance::runToNewDistance(float value) {
@@ -34,12 +34,12 @@ void AccelStepperWithDistance::runToNewDistance(float value) {
     runToPosition();
 }
 
-void AccelStepperWithDistance::setAnglePerRevolution(float value) {
-	anglePerRevolution = value;
+void AccelStepperWithDistance::setAnglePerRotation(float value) {
+	anglePerRotation = value;
 }
 
 void AccelStepperWithDistance::moveToAngle(float value) {
-	moveTo(value * microSteps * stepsPerRevolution / anglePerRevolution);
+	moveTo(value * microSteps * stepsPerRotation / anglePerRotation);
 }
 
 void AccelStepperWithDistance::runToNewAngle(float value) {
