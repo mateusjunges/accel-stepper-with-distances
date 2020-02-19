@@ -22,3 +22,10 @@ Arduino/lib/targets/libraries/AccelStepperWithDistances/readme.txt   			  (this 
 After this library is installed, you just have to start the Arduino application.
 You may see a few warning messages as it's built.
 
+# Credits
+
+- [Mateus Junges][me]
+- [Ariangelo H. Dias][ariangelo]
+
+[me]: https://twitter.com/mateusjungess
+[ariangelo]: https://github.com/ariangelo
