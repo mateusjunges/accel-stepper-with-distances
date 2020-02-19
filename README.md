@@ -16,10 +16,6 @@ Arduino/lib/targets/libraries/AccelStepperWithDistances/src/AccelStepperWithDist
 Arduino/lib/targets/libraries/AccelStepperWithDistances/keywords.txt 			  (the syntax coloring file)
 Arduino/lib/targets/libraries/AccelStepperWithDistances/README.md   	     	          (this file)
 ```
-# Building
-
-After this library is installed, you just have to start the Arduino application.
-You may see a few warning messages as it's built.
 
 # Credits
 
