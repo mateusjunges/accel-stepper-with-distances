@@ -1,6 +1,6 @@
 # Accel Stepper with Distances
 
-This library allow you to work with the popular AccelStepper library
+This library allow you to work with the popular AccelStepper library not with steps, but distances!
 
 # Installation
 
