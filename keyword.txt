@@ -1,5 +1,5 @@
  
-MyStepper       			KEYWORD1
+AccelStepperWithDistance       			KEYWORD1
 setMicroStep			    KEYWORD2
 setStepsPerRotation		    KEYWORD2
 setDistancePerRotation	    KEYWORD2
