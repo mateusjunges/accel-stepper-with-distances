@@ -29,6 +29,10 @@ class AccelStepperWithDistance : public AccelStepper {
 
 		void moveToDistance(float value);
 
+    void moveRelative(float value);
+    
+    void runRelative(float value);
+
 		void runToNewDistance(float value);
 
 		void setAnglePerRotation(float value);
