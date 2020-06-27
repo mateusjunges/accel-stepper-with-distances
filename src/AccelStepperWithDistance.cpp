@@ -50,6 +50,25 @@ void AccelStepperWithDistance::moveToDistance(float value) {
 }
 
 /**
+ * Move the motor to a new relative distance.
+ * @param value
+ */
+void AccelStepperWithDistance::moveRelative(float value)
+{
+  move(value * microSteps * stepsPerRotation / distancePerRotation);
+}
+
+/**
+ * Move and run the motor to a new relative distance.
+ * @param value
+ */
+void AccelStepperWithDistance::runRelative(float value)
+{
+  move(value * microSteps * stepsPerRotation / distancePerRotation);
+  runToPosition();
+}
+
+/**
  * The motor goes to the new specified distance.
  * @param value
  */
