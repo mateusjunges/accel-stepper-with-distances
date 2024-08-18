@@ -13,6 +13,7 @@ To install this library, search for `AccelStepperWithDistances` in the arduino l
 Here's a basic example of how to use the AccelStepperWithDistance library:
 
 ```cpp
+#include <AccelStepper.h>
 #include <AccelStepperWithDistance.h>
 
 #define STEP_PIN 2
@@ -115,6 +116,7 @@ Returns the current position in distance units.
 Here's a more comprehensive example showcasing various methods:
 
 ```cpp
+#include <AccelStepper.h>
 #include <AccelStepperWithDistance.h>
 
 #define STEP_PIN 2
