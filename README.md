@@ -165,7 +165,7 @@ This example demonstrates how to use various methods of the AccelStepperWithDist
 # Credits
 - [Mateus Junges][me]
 - [Ariangelo H. Dias][ariangelo]
-- [Miro Hristov]
+- miro-ux
 
 [me]: https://twitter.com/mateusjungess
 [ariangelo]: https://github.com/ariangelo
